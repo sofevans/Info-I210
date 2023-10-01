@@ -8,14 +8,8 @@ public class AddThree {
     Scanner input = new Scanner(System.in);
     System.out.println("What is " + One + " + " + Two + " + " + Three + " ?");            
     int answer = input.nextInt();
-    int correct = One + Two + Three;
-    if (answer == correct) {
-        System.out.print("Correct " + One + " + " + Two + " + " + Three);
-        System.out.println(" = " + correct);
-    }
-    else if (answer != correct) {
-        System.out.print("Incorrect, " + One + " + " + Two + " + " + Three);
-        System.out.println( " = " + correct);    
+    int i = One + Two + Three;
+    System.out.print(One + Two + Three == answer);
+    System.out.println(" " + One + " + " + Two + " + " + Three + " = " + i);    
     }
   }   
-}
