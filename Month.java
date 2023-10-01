@@ -2,7 +2,6 @@
 import java.util.Random;
 public class Month {
     public static void main(String[] args) {
-        Random month = new Random();
         int R = (int)(Math.random() * (12) + 1); // Min of 1 Max of 12
         if (R + 1 == 1)
             System.out.println(R + ". January");
